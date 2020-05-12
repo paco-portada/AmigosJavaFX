@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FriendController">
+   <children>
+      <TextField fx:id="textNombre" layoutX="129.0" layoutY="33.0" promptText="Nombre" />
+      <TextField fx:id="textMovil" layoutX="129.0" layoutY="73.0" promptText="Móvil" />
+      <TextField fx:id="textEmail" layoutX="129.0" layoutY="116.0" promptText="Email" />
+      <ComboBox fx:id="cuadroCiudad" layoutX="129.0" layoutY="164.0" prefWidth="150.0" />
+      <DatePicker fx:id="dpFecha" layoutX="180.0" layoutY="214.0" prefHeight="26.0" prefWidth="136.0" />
+      <Button layoutX="184.0" layoutY="260.0" mnemonicParsing="false" onAction="#accionGuardar" text="Guardar" textFill="#51bf54">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="textResultado" layoutX="106.0" layoutY="309.0" prefHeight="77.0" prefWidth="271.0" />
+      <Button layoutX="444.0" layoutY="142.0" mnemonicParsing="false" onAction="#accionVer" text="Ver" textFill="#d03434">
+         <font>
+            <Font name="Bitstream Vera Sans Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="48.0" layoutY="38.0" text="Nombre" />
+      <Label layoutX="48.0" layoutY="78.0" text="Móvil" />
+      <Label layoutX="48.0" layoutY="121.0" text="Email" />
+      <Label layoutX="48.0" layoutY="169.0" text="Ciudad" />
+      <Label layoutX="26.0" layoutY="219.0" text="Fecha de nacimiento" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,3 @@
+nombre='pepe', movil='678', email='pepe@gmail.com', ciudad='Málaga', nacimiento=2004-05-02
+nombre='rosa', movil='678', email='rosa@gmail.com', ciudad='Córdoba', nacimiento=1999-05-13
+nombre='eva', movil='652', email='eva@gmail.com', ciudad='Málaga', nacimiento=1995-04-10
