@@ -44,7 +44,7 @@ public class FriendController implements Initializable {
         String nombre = textNombre.getText();
         String movil = textMovil.getText();
         String email = textEmail.getText();
-        String ciudad = cuadroCiudad.getValue().toString();;
+        String ciudad = cuadroCiudad.getValue().toString();
         LocalDate nacimiento;
         Persona persona;
         FileWriter out = null;
